@@ -4,6 +4,7 @@
 
 <div>
   <%= link_to "Edit this idea", edit_idea_path(@idea) %> |
+  <%= link_to "Create new idea", new_idea_path %> |
   <%= link_to "Back to ideas", ideas_path %>
 
   <%= button_to "Destroy this idea", @idea, method: :delete %>
